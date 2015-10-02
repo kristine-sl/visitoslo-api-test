@@ -1,0 +1,19 @@
+// ---------------------------------------------------------------------
+// Breakpoints
+// ---------------------------------------------------------------------
+// This document defines all major breakpoint variables.
+
+@include set-breakpoints(
+    (
+        'x-small':  480px,
+        'small':    740px,
+        'medium':   960px,
+        'large':    1200px,
+        'x-large':  1500px
+    )
+);
+
+@function breakpoint( $keys )
+{
+    @return get( 'breakpoints.#{$keys}' );
+}

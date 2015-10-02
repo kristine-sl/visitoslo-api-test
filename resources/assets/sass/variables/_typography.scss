@@ -1,0 +1,17 @@
+// ---------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------
+// This document defines all typography variables.
+
+@include set( 'typography',
+    (
+    	'family': (
+    		'base': 'Helvetica Neue' Helvetica sans-serif
+		)
+    )
+);
+
+@function typography( $keys )
+{
+    @return get( 'typography.#{$keys}' );
+}

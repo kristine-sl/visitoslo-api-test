@@ -1,0 +1,15 @@
+// ---------------------------------------------------------------------
+// Layout Variables
+// ---------------------------------------------------------------------
+// This document defines all layout variables.
+
+@include set( 'layout',
+    (
+
+    )
+);
+
+@function layout( $keys )
+{
+    @return get( 'layout.#{$keys}' );
+}

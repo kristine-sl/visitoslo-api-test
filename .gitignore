@@ -1,0 +1,16 @@
+# Dependencies
+/vendor
+/node_modules
+/bower_components
+
+# Sublime
+/.phpintel
+
+# Environment variables
+.env
+
+# Sass
+.sass-cache
+
+# OS X
+.DS_Store

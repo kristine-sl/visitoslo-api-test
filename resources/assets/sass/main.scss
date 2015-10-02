@@ -1,0 +1,29 @@
+// ---------------------------------------------------------------------
+// Manifest
+// ---------------------------------------------------------------------
+// This document is only a manifest bootstrapping all the pieces of your
+// application together. If you use the sass-globbing gem you can import
+// wildcards to automatically import all files from a folder. If you are
+// not using the gem, you'll have to explicity import all created files.
+
+// Import framework configuration
+@import 'settings';
+
+// Import Fansasstic
+@import '../../../bower_components/fansasstic/src/framework';
+
+// Import variables
+@import 'variables/breakpoints';
+@import 'variables/layout';
+@import 'variables/typography';
+
+// Import base
+@import 'base/layout';
+@import 'base/typography';
+
+// Import modules
+// @import 'modules/*';
+
+// Import components
+@import 'components/box-container';
+@import 'components/site-container';

@@ -1,0 +1,20 @@
+{
+  "name": "visitoslo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kristine-sl/visitoslo-api-test",
+  "authors": [
+    "Kristine Sundt Lorentzen <kristine.sundt.lorentzen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fansasstic-boilerplate": "*",
+    "fansasstic": "~0.9.3"
+  }
+}

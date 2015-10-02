@@ -1,0 +1,15 @@
+// ---------------------------------------------------------------------
+// Color Variables
+// ---------------------------------------------------------------------
+// This document defines all color variables.
+
+@include set( 'colors',
+    (
+
+    )
+);
+
+@function color( $keys )
+{
+    @return get( 'colors.#{$keys}' );
+}
